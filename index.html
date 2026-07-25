@@ -3,14 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>หน้าแรก - Simple Web</title>
+    <title>มหาวิทยาลัยราชภัฏ - หน้าแรก</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <h1 class="text-primary">หน้าแรก</h1>
-        <p>ยินดีต้อนรับ! นี่คือหน้าแรกแบบเรียบง่าย</p>
-        <a href="page2.html" class="btn btn-primary">ไปหน้า 2 &rarr;</a>
-    </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">🎓 มหาวิทยาลัยราชภัฏ</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">หน้าแรก</a></li>
+            <li><a href="#">หลักสูตร</a></li>
+            <li><a href="#">เกี่ยวกับเรา</a></li>
+            <li><a href="page2.html">หน้า 2 &rarr;</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="hero">
+            <h1>มหาวิทยาลัยราชภัฏ</h1>
+            <p>มุ่งมั่นพัฒนาการศึกษา สร้างสรรค์ภูมิปัญญาท้องถิ่นสู่สากล</p>
+            <a href="page2.html" class="btn btn-primary">ไปยังหน้า 2 &rarr;</a>
+        </section>
+
+        <section class="grid">
+            <div class="card">
+                <h3>📚 วิชาการเป็นเลิศ</h3>
+                <p>เปิดสอนหลักสูตรหลากหลาย ตอบโจทย์การทำงานในยุคดิจิทัล</p>
+            </div>
+            <div class="card">
+                <h3>🌱 บริการวิชาการสู่ชุมชน</h3>
+                <p>มุ่งเน้นการพัฒนาท้องถิ่นและยกระดับคุณภาพชีวิตของสังคม</p>
+            </div>
+            <div class="card">
+                <h3>🎨 ทำนุบำรุงศิลปวัฒนธรรม</h3>
+                <p>อนุรักษ์ สืบสาน และต่อยอดภูมิปัญญาท้องถิ่นอันทรงคุณค่า</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 มหาวิทยาลัยราชภัฏ - สงวนลิขสิทธิ์</p>
+    </footer>
 </body>
 </html>

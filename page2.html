@@ -3,14 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>หน้า 2 - Simple Web</title>
+    <title>หน้า 2 - มหาวิทยาลัยราชภัฏ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <h1 class="text-purple">หน้า 2</h1>
-        <p>ยินดีต้อนรับสู่หน้า 2!</p>
-        <a href="index.html" class="btn btn-purple">&larr; กลับหน้าแรก</a>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">🎓 มหาวิทยาลัยราชภัฏ</a>
+        <ul class="nav-links">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="#">หลักสูตร</a></li>
+            <li><a href="#">เกี่ยวกับเรา</a></li>
+            <li><a href="page2.html" class="active">หน้า 2 &rarr;</a></li>
+        </ul>
+    </nav>
+
+    <!-- Centered Content -->
+    <div class="centered-container">
+        <div class="card centered-card">
+            <h1 class="text-purple">หน้า 2</h1>
+            <p>ยินดีต้อนรับสู่หน้า 2 ของมหาวิทยาลัยราชภัฏ!</p>
+            <a href="index.html" class="btn btn-purple">&larr; กลับหน้าแรก</a>
+        </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 มหาวิทยาลัยราชภัฏ - สงวนลิขสิทธิ์</p>
+    </footer>
 </body>
 </html>
