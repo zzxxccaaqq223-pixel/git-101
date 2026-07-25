@@ -1,0 +1,13 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# 1. Hide .html extension from URLs (e.g. /page2 instead of /page2.html)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# 2. Set default charset to UTF-8
+AddDefaultCharset UTF-8
+
+# 3. Prevent Directory Listing (Directory Browsing)
+Options -Indexes
